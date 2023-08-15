@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "module": "commonjs",
+      "strict": true,
+      "baseUrl": "./",
+      "types": ["cypress", "node", "@shelex/cypress-allure-plugin"],
+      "paths": {
+        "@fixtures/*": ["./cypress/fixtures/*"],
+        "@lib/*": ["./cypress/e2e/pages/*"]
+      }
+    },
+    "include": ["cypress/**/*.ts"]
+}

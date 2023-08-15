@@ -1,0 +1,24 @@
+{
+  "name": "cocus_challenge",
+  "version": "1.0.0",
+  "description": "Testing assignment for cucus challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --config baseUrl=${baseUrl:=https://www.saucedemo.com/} --browser chrome --headed --spec './cypress/e2e/test/**/*.cy.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Aruna Mendis",
+  "license": "",
+  "dependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "@shelex/cypress-allure-plugin": "^2.28.0",
+    "cypress": "^12.17.3",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.22.1"
+  }
+}
